@@ -1,19 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Configuration;
-using Microsoft.Win32;
-using System.Text.RegularExpressions;
-using System.IO;
-
 namespace HostedNetworkForm
 {
+    using System;
+    using System.Windows.Forms;
+    using System.Text.RegularExpressions;
+    using System.IO;
+    
     public partial class SettingsForm : Form
     {
         private MainForm mainForm;
